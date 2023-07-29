@@ -83,11 +83,49 @@ echo "lorem ipsum";
 ?>
 
 <?php
-function calc($wanafunzi)
-{
-  $magari = 6;
-  return $wanafunzi / $magari;
+// function calc($wanafunzi)
+// {
+//   $magari = 6;
+//   return $wanafunzi / $magari;
+// }
+
+// $wanafunzi =105;
+// echo "Kila gari litabeba wanafunzi " .calc($wanafunzi);
+
+// echo date("H");
+// if(date("H") > 10){
+//   echo " Greater than 5";
+// }
+// else{
+//   echo " Less than 5";
+// }
+// $name = "Jomba mwakangale";
+// if($name){
+//   echo "$name";
+// }
+// else{
+//   echo "No name has specified";
+// }
+
+$a = 10;
+if($a > 10){
+  echo "greater than 10";
+}
+elseif($a < 10){
+  echo " Lesss than 10";
+}
+elseif($a == 10){
+  echo 'equal is 10';
+}
+else{
+  echo "I have to idea";
 }
 
-$wanafunzi =105;
-echo "Kila gari litabeba wanafunzi " .calc($wanafunzi);
+?>
+
+<!-- <?php
+// $name = "Humphrey David Elias";
+// echo $name;
+// echo "<hr>";
+// echo "My name full name is " .strlen($name); -->
+
